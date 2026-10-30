@@ -1,14 +1,11 @@
-package mx.edu.cesba.conexion;
+package mx.edu.cesba.PruebaConexion;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 public class conexion {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/agenda_medica"
-            + "?useSSL=false"
-            + "&serverTimezone=UTC"
-                    + "&allowPublicKeyRetrieval=true";
+            "jdbc:mysql://localhost:3306/agenda_medica?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USUARIO = "root";
     private static final String PASSWORD = "D4AB82FB123E";
 

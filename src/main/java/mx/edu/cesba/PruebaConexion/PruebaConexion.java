@@ -1,11 +1,11 @@
 package mx.edu.cesba.PruebaConexion;
 import java.sql.Connection;
 
-import mx.edu.cesba.conexion.conexion;
+
 public class PruebaConexion {
 
     public static void main(String[] args) {
-Connection conexion = mx.edu.cesba.conexion.conexion.conectar();
+Connection conexion = mx.edu.cesba.PruebaConexion.conexion.conectar();
     if (conexion != null) {
             System.out.println(
                     "================================="
@@ -34,7 +34,10 @@ Connection conexion = mx.edu.cesba.conexion.conexion.conectar();
             System.out.println(
                     "================================="
             );
+
         }
+
     }
+
 }
 
